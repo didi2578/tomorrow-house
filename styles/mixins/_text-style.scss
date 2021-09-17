@@ -2,11 +2,6 @@
   font-size: $font-size-12;
   line-height: $line-height-12;
   letter-spacing: $letter-spacing-12;
-  color: $color;
-
-  @if ($color != false) {
-    color: $color;
-  }
 }
 
 @mixin text-style-13() {
@@ -65,5 +60,5 @@
 }
 
 p {
-  @include text-style(14, $secondary);
+  @include text-style(13);
 }
