@@ -1,0 +1,155 @@
+[33mcommit 31bbf3c3becdfd2db2c52f788c91750afc14b7d6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Fri Sep 17 20:24:19 2021 +0900
+
+    💄 Implement price components
+
+[33mcommit da9719717a936d70bd943a7e576e2145f04e675c[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Fri Sep 17 19:51:11 2021 +0900
+
+    💄 Implement star-rating complements
+
+[33mcommit aebbf4ac450dd3ab3c98ccf48dec63babe0a4223[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Fri Sep 17 19:11:10 2021 +0900
+
+    💄 Implement avatar components
+
+[33mcommit 44e50efbc1a021f5b48eaa0257138a8232707bc4[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Fri Sep 17 18:05:43 2021 +0900
+
+    💄 Implement tag components
+
+[33mcommit 2b37808cdb298fced22431510473023f0c0728f3[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Thu Sep 16 20:30:54 2021 +0900
+
+    ✨ Implement common mixins: flexbox
+
+[33mcommit e31a323ba94920c2719b651951849d607cdf63e9[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Thu Sep 16 19:42:57 2021 +0900
+
+    ✨ Implement position utility mixins
+
+[33mcommit f4bdd9a55626af47596ca8b1fd52ff64f2a232db[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Thu Sep 16 19:04:54 2021 +0900
+
+    ♻️ Refactor grid with mixins
+
+[33mcommit afe3c524657b1b674119dd99dc3130be55eed93a[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Thu Sep 16 19:03:01 2021 +0900
+
+    ✨ Implement a mixin for media query
+
+[33mcommit 23bd4b5b58834888875b3b44b6b3a35573de0f46[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Thu Sep 16 19:01:13 2021 +0900
+
+    💄 Define breakpoint constants
+
+[33mcommit 103b7344ddd567254207219bd8cb4d3c9fa89276[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Thu Sep 16 17:10:40 2021 +0900
+
+    ✨ Create a common mixin: text-style
+
+[33mcommit 3f957bb4be79a4f3e0998a4ea75771aab9db2e9d[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Wed Sep 15 20:45:59 2021 +0900
+
+    ⚡️ Implement a custom responsive grid system
+
+[33mcommit 7f5347add1db3cf0df3c7f5e64d048adaadd9a2c[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Wed Sep 15 17:20:49 2021 +0900
+
+    💄 Add missing reset declarations
+
+[33mcommit 67fb8cd760cdff2447ae4113315796eddd3072a1[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Wed Sep 15 17:18:56 2021 +0900
+
+    💄 Declare typography-related constants
+
+[33mcommit 9de2a0fa9dbfc056f9fd718e38f4b585d928b61c[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Wed Sep 15 16:50:47 2021 +0900
+
+    💄 Declare color constants
+
+[33mcommit f5ce5ab23fd35aa10eba856c21f2abd74beb9529[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Tue Sep 14 19:19:07 2021 +0900
+
+    💄 Add CSS reset files
+
+[33mcommit f4fa8cf628caf32bae39ce49e876bed00de122be[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Sun Sep 12 17:16:34 2021 +0900
+
+    📝  Apply favicons
+
+[33mcommit 17cf8a71c632cb5a6c84e43d6199ead9b9e8356f[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Sun Sep 12 17:15:52 2021 +0900
+
+    🍱 Upload favicon icons
+
+[33mcommit d6b7da51073567451c1bcee1dedb4a75ab9fa53a[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Sun Sep 12 16:59:06 2021 +0900
+
+    🩹 Import icon fonts to main.scss
+
+[33mcommit e485c9212b9925f7085d9a40e272a5545ca804a5[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Sun Sep 12 16:57:20 2021 +0900
+
+    🙈 Add .DS_Store to .gitignore
+
+[33mcommit 3892a08148c2f540f3291b6ecec84b54818154be[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Sun Sep 12 16:50:58 2021 +0900
+
+    🍱 Upload icon fonts
+
+[33mcommit 65d2c757fd4828ce3f56df5b54af632923c2f8e0[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Sun Sep 12 16:15:16 2021 +0900
+
+    🍱 Upload image assets
+
+[33mcommit 25cab1b30282f08d4bb728061e61855042573c57[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Sun Sep 12 15:27:59 2021 +0900
+
+    🎨 Set up html document and import web font
+
+[33mcommit 94ed29205f649164dc3462d1328ef2afb74a3971[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Sat Sep 11 14:08:50 2021 +0900
+
+    🔧 Add linter configs
+
+[33mcommit 58d514d6412c15d413592da189ff281a4de34d81[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Sat Sep 11 12:43:41 2021 +0900
+
+    🚀 Add sass sctipt and create template
+
+[33mcommit 81cd90e246603b3702528bdb32c8b6ca60ec9c17[m
+Author: didiSong <storyno7@gmail.com>
+Date:   Sat Sep 11 12:42:13 2021 +0900
+
+    🎉 Introduce a project
+
+[33mcommit 880cd09de9e1308f13e61e93ee6760ba723ea30a[m
+Author: Song da young <88611957+didi2578@users.noreply.github.com>
+Date:   Fri Sep 10 19:38:29 2021 +0900
+
+    Initial commit
