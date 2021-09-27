@@ -4,9 +4,7 @@
 
   overflow-x: auto;
 
-  &::-webkit-scrollbar {
-    display: none; //delete scrollbar
-  }
+  @include no-scrollbar;
 
   &-list {
     @include inline-flexbox(start);
