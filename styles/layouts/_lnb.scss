@@ -28,7 +28,7 @@
     a {
       @include inline-flexbox;
       @include text-style(13, $dark);
-      height: 4$lnb-height-sm;
+      height: $lnb-height-sm;
       padding: 0 $lnb-link-padding;
       font-weight: 700;
       border-bottom: 2px solid transparent;
