@@ -13,7 +13,6 @@
 
     .info-title {
       @include text-style(18, $dark);
-      width: 100%;
       margin-bottom: 4px;
       font-weight: 400;
     }
@@ -21,6 +20,10 @@
     .info-review {
       @include flexbox(start);
       margin-bottom: 16px;
+
+      .star-rating {
+        @include star-rating(13px);
+      }
 
       p {
         @include text-style(13, $blue);
@@ -75,13 +78,77 @@
   }
 
   &-delivery {
+    @include text-style(16, $primary);
     padding-top: 12px;
     border-top: 1px solid $border;
 
     span {
-      @include text-style(16, $primary);
       display: block;
       margin-bottom: 2px;
+    }
+  }
+
+  @include responsive(T) {
+    padding: 0;
+
+    &-header {
+      .info-title {
+        @include text-style(24);
+        margin: 8px 0;
+      }
+
+      .info-review {
+        .star-rating {
+          font-size: 16px;
+        }
+
+        p strong {
+          margin-right: -3px;
+        }
+      }
+    }
+
+    &-price {
+      .info-price-wrapper {
+        @include flexbox(start, end);
+        margin-bottom: 12px;
+      }
+
+      .discount-rate {
+        align-items: flex-end;
+        margin-right: 16px;
+
+        .rate {
+          font-size: 44px;
+          line-height: 36px;
+        }
+
+        .percent {
+          line-height: 1;
+        }
+      }
+
+      .info-sale-price {
+        margin-bottom: 0;
+
+        .price-32 {
+          margin-right: 8px;
+        }
+      }
+
+      .info-point {
+        margin-bottom: 20px;
+      }
+    }
+
+    &-delivery {
+      padding-top: 16px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid $border;
+
+      span {
+        margin-bottom: 8px;
+      }
     }
   }
 }
