@@ -44,6 +44,21 @@
   }
 
   &-body {
+    .review-img {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 8px;
+      overflow: hidden;
+      border-radius: 4px;
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+
     p {
       @include text-style(13, $primary);
     }
@@ -55,6 +70,13 @@
     button {
       width: 120px;
       margin-right: 8px;
+
+      .ic-check {
+        margin-right: 4px;
+        margin-left: -4px;
+        font-size: 20px;
+        color: $white;
+      }
     }
 
     p {
@@ -83,6 +105,12 @@
     }
 
     &-body {
+      .review-img {
+        width: 112px;
+        height: 112px;
+        margin-bottom: 16px;
+      }
+
       p {
         @include text-style(14);
       }
