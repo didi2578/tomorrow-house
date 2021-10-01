@@ -36,6 +36,8 @@
           height: 5px;
           background-color: $blue;
           border-radius: 4px;
+          animation-duration: 500ms;
+          animation-name: slide-active-bar;
         }
       }
 
@@ -49,10 +51,20 @@
     &-item {
       dd {
         .bar-graph {
-          margin: 0 8px;
           width: 180px;
+          margin: 0 8px;
         }
       }
     }
+  }
+}
+
+@keyframes slide-active-bar {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
   }
 }
