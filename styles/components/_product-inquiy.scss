@@ -1,0 +1,74 @@
+.inquiry-card {
+  padding-bottom: 40px;
+
+  &-header {
+    @include text-style(12);
+
+    .detail,
+    .misc {
+      @include flexbox(start);
+      margin-bottom: 8px;
+    }
+
+    dd,
+    strong {
+      &::after {
+        margin: 0 4px;
+        content: '|';
+      }
+    }
+
+    dd:last-child::after {
+      content: none;
+    }
+
+    .detail {
+      color: $primary;
+    }
+
+    .misc {
+      color: $tertiary;
+
+      strong {
+        font-weight: 400;
+      }
+    }
+  }
+
+  &-body {
+    @include text-style(13);
+
+    .quistion-content {
+      position: relative;
+      padding-left: 20px;
+    }
+
+    span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-weight: 700;
+      color: $blue;
+    }
+
+    p {
+      color: $primary;
+    }
+  }
+
+  @include responsive(T) {
+    &-header {
+      .misc {
+        margin-bottom: 20px;
+      }
+    }
+
+    &-body {
+      @include text-style(16);
+
+      .quistion-content {
+        padding-left: 24px;
+      }
+    }
+  }
+}
