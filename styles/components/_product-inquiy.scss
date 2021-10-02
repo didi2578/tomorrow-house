@@ -24,6 +24,10 @@
 
     .detail {
       color: $primary;
+
+      .is-answered {
+        color: $blue;
+      }
     }
 
     .misc {
@@ -38,17 +42,21 @@
   &-body {
     @include text-style(13);
 
-    .quistion-content {
+    .inquiry-content {
       position: relative;
       padding-left: 20px;
-    }
 
-    span {
-      position: absolute;
-      top: 0;
-      left: 0;
-      font-weight: 700;
-      color: $blue;
+      &:first-child:not(:last-child) {
+        margin-bottom: 12px;
+      }
+
+      span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-weight: 700;
+        color: $blue;
+      }
     }
 
     p {
@@ -58,6 +66,20 @@
       i {
         margin-right: 8px;
         font-size: 16px;
+        color: $tertiary;
+      }
+    }
+
+    .seller {
+      @include flexbox(start);
+      margin-bottom: 4px;
+
+      strong {
+        margin-right: 4px;
+      }
+
+      time {
+        @include text-style(12);
         color: $tertiary;
       }
     }
@@ -73,8 +95,20 @@
     &-body {
       @include text-style(16);
 
-      .quistion-content {
+      .inquiry-content {
         padding-left: 24px;
+
+        &:first-child:not(:last-child) {
+          margin-bottom: 16px;
+        }
+      }
+
+      .seller {
+        margin-bottom: 8px;
+
+        strong {
+          @include text-style(16);
+        }
       }
     }
   }
